@@ -12,7 +12,7 @@ end
 plugin_lib_files = plugin_files.select { |file| file.match(/^lib\//) }
 
 Gem::Specification.new do |gem|
-  gem.name = "nmatrix"
+  gem.name = "pnmatrix"
   gem.version = NMatrix::VERSION::STRING
   gem.summary = "NMatrix is a linear algebra library for Ruby"
   gem.description = "NMatrix is a linear algebra library for Ruby, written mostly in C and C++."

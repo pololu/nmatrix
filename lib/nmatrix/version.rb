@@ -27,7 +27,7 @@ class NMatrix
   # native IO. If you change the format, please make sure that native
   # IO can still understand NMatrix::VERSION.
   module VERSION #:nodoc:
-    MAJOR = 0
+    MAJOR = 1
     MINOR = 2
     TINY = 4
     #PRE = "a"
