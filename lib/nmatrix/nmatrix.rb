@@ -45,8 +45,6 @@ else
   else
     # Gem
     require_relative "../nmatrix.so"
-    require_relative './io/mat_reader'
-    require_relative './io/mat5_reader'
     require_relative './io/market'
     require_relative './io/point_cloud'
 
